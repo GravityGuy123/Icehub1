@@ -5,9 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Button</title>
     <style>
+        .contents{
+            margin-top: 23px;
+            height: 600px;
+            border: 1px solid white transparent;
+        }
         .nav{
-            display: inline-block;
+            margin-top: 23px;
+            background-color: purple;
+            height: 40px;
+            font-size: 25px;
+            font-weight: 600;
+            position: relative;
+            gap: 20px;
+            border-spacing: 20px;
+            padding-top: 10px;
             padding-left: 10px;
+        }
+        .nav a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav :nth-child(2){
+            margin-left: 10px;
+        }
+
+        .buttons button{
+            margin-top: 15px;
+        }
+
+        .buttons a{
+            color: white;
+            text-decoration: none;
         }
 
         .main{
@@ -45,35 +75,28 @@
             border-radius: 7px;
         }
 
-        .buttons a{
-            color: white;
-            text-decoration: none;
-        }
-
         .button3 a{
             color: blue;
             text-decoration: none;
-        }
-
-        h1{
-            font-family: 'Times New Roman', Times, serif;
         }
 
         .g{
             color: green;
         }
 
-        .top{
-            margin-top: 30px;
+        .topbutton{
+            margin-top: 50px;
             display: block;
             height: 35px;
             background-color: purple;
             width: 70px;
             border: none;
             border-radius: 5px;
+            font-size: 14px;
+            font-weight: 600;
         }
 
-        .top a{
+        .topbutton a{
             color: white;
             text-decoration: none;
         }
@@ -81,22 +104,24 @@
 </head>
 <body>
     <div class="contents">
-        <ul>
-        <li><h1><a href="index.html">Home</a></h1></li>
-        <li><h1><a href="about.html">About</a></h1></li>
-        </ul>
+        <div class="nav">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+        </div>
         <span class="buttons">
             <button class="main"><a href="suscribebutton.html">Suscribe</a></button>
             <button class="button1"><a href="joinbutton.html">Join</a></button>
             <button class="button2"><a href="tweetbutton">Tweet</a></button>
         </span>
         <button class="button3"><a href="regiterbutton">Register</a></button>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque dolore consequatur, repudiandae officiis possimus ea soluta minima cum praesentium nisi incidunt amet repellat non inventore nihil. Vel cupiditate, ullam ab rerum autem neque a repellendus possimus non voluptates fugit reprehenderit ad quidem ut eos impedit iste, fuga dolor incidunt, obcaecati distinctio saepe eum illum at. Maxime vero, quis vitae consectetur est nulla ipsum ipsam impedit numquam ipsa unde eligendi nihil iure animi sit dolor quibusdam. Non laborum officia vero magni tenetur voluptate aspernatur doloribus sint incidunt quibusdam earum totam eaque accusamus, possimus id! Aut nam commodi aliquid, modi ad velit.</p>
+        <h1>Hello World</h1>
+        <p>Welcome to my online space</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quisquam deleniti, repellat quas in ullam veritatis exercitationem doloribus ducimus. Aliquam voluptatum nobis adipisci quas culpa tenetur dolorum. Quae dolorem placeat repudiandae tempora nam veritatis dignissimos quam, adipisci est repellendus esse ducimus temporibus. Quis saepe id, rerum ipsum ipsa, cupiditate nisi soluta ex dignissimos cumque sed minus at totam, inventore officiis! Nihil quos veritatis ducimus harum quae debitis voluptatibus. Ullam eius praesentium quia, blanditiis nam molestiae, sint eligendi aspernatur nesciunt ducimus voluptate magnam minus exercitationem asperiores excepturi inventore tempora rerum facere eum nulla quidem, amet facilis impedit neque. Labore, ipsam eligendi?</p>
         <h1>Hello <span class="g">Gravity Guy</span></h1>
         <img src="Images/yellowcar.jpg" alt="Yellow Car" height="100px">
         <img src="Images/YoutubeIcon1.png" alt="Youtube Logo" height="100px">
         <img src="Facebook1.0.jpg" alt="Facebook Logo" height="100px">
-        <button class="top"><a href="button.html">Top</a></button>
+        <button class="topbutton"><a href="button.html">Top</a></button>
     </div>
 </body>
 </html>
